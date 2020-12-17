@@ -42,7 +42,7 @@ public class UserController {
 		
 		  //generate random id
 		  Random rd = new Random();
-	      long id = (long)(rd.nextDouble()*1000000000L);
+	      long id = (long)(rd.nextDouble()*100000000L);
 		
 	  	  System.out.println("Enter your first name:");
 		  String fname = scanner.nextLine();
